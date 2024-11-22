@@ -1,3 +1,15 @@
+@import '@fontsource-variable/pixelify-sans';
+@import '@fontsource/geist-sans';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Geist Sans', sans-serif;
+}
+
+header,
+footer {
+  font-family: 'Pixelify Sans Variable', system-ui;
+}
